@@ -8,8 +8,27 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e5d8c8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-table {
-    border: 1px solid black;
+#title {
+    color: #b6724b;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#countdown_table {
+    color: #a1bcab;
+    font-size: 45px;
+}
+
+#countdown_table tbody tr td {
+    padding: 15px;
 }
