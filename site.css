@@ -1,0 +1,15 @@
+/* terracotta: b6724b
+    sage green: a1bcab
+    fern green: 676c56
+    creme: e5d8c8
+    grey: c4c0b4 */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e5d8c8;
+}
+
+table {
+    border: 1px solid black;
+}
