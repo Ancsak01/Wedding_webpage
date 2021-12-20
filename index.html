@@ -14,13 +14,13 @@
     <div class="container">
 
         <table id="countdown_table">
+            <tr id="counter"></tr>
             <tr id="countdown_header">
                 <td>Nap</td>
                 <td>Óra</td>
                 <td>Perc</td>
                 <td>Másodperc</td>
             </tr>
-            <tr id="counter"></tr>
         </table>
         <script>
             // Set the date we're counting down to
@@ -42,8 +42,8 @@
                 var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                 // Display the result in the element with id="demo"
-                document.getElementById("counter").innerHTML = "<td>" + days + "</td><td>" + hours + "</td><td>" +
-                    minutes + "</td><td>" + seconds + "</td>";
+                document.getElementById("counter").innerHTML = "<td>" + days + " : </td><td>" + hours + " : </td><td>" +
+                    minutes + " : </td><td>" + seconds + "</td>";
 
                 // If the count down is finished, write some text
                 if (distance < 0) {
@@ -53,7 +53,7 @@
             }, 1000);
         </script>
     </div>
-    <a href="#">Nászajándékok</a>
+    <a href="#" class="container mt-5">Nászajándékok</a>
 </body>
 
 </html>
