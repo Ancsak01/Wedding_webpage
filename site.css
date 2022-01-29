@@ -37,7 +37,8 @@ a:hover {
 
 #countdown_table {
     color: #a1bcab;
-    font-size: 64px;
+    font-size: 35px;
+    margin-left: 10px;
     border: 3px solid #b6724b;
     border-radius: 3pc;
     padding: 15px;
