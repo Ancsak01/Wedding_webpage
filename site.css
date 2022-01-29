@@ -8,6 +8,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e5d8c8;
+    background-image: url("Invitation.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 680px;
     font-family: Libre Baskerville;
 }
 
@@ -52,6 +56,11 @@ a:hover {
 
 .mt-5 {
     margin-top: 1rem;
+}
+
+#frame {
+    min-width: 75vw;
+    min-height: 75vh;
 }
 
 @media (max-width: 517px) {
