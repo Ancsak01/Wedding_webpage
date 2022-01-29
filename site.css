@@ -11,7 +11,7 @@ body {
     background-image: url("Invitation.jpg");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 680px;
+    background-size: 40%;
     font-family: Libre Baskerville;
 }
 
@@ -64,18 +64,22 @@ a:hover {
     min-height: 75vh;
 }
 
-@media (max-width: 517px) {
+@media (max-width: 517px) and (min-width: 0px) {
+    body {
+        background-size: 100%;
+    }
     #title {
         font-size: 1.5em;
     }
     #countdown_table {
-        font-size: 32px;
-        border: 3px solid #b6724b;
+        margin-left: 3px;
+        font-size: 16px;
+        border: 1.5px solid #b6724b;
         border-radius: 3pc;
-        padding: 7.5px;
+        padding: 3.5px;
     }
     #countdown_table tbody #countdown td {
-        padding: 7.5px;
+        padding: 3.5px;
     }
     #countdown_header {
         /* text-align: center; */
